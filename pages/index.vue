@@ -110,7 +110,6 @@ export default {
     border-radius: 6px;
     padding: 8px 10px;
     background: $grey;
-    margin-right: 10px;
     margin-bottom: 10px;
   }
 

@@ -76,7 +76,7 @@ export default {
   border: 2px solid $grey;
   border-radius: 6px;
   width: 100%;
-  height: 170px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -93,6 +93,7 @@ export default {
 
   &__vacancy {
     max-width: 110px;
+    font-size: 12px;
   }
 
   &__profile {
@@ -140,7 +141,7 @@ export default {
   }
 
   &__item {
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 500;
     color: $blue;
     margin-right: 5px;
@@ -158,6 +159,7 @@ export default {
     &_city {
       color: $black;
       cursor: initial;
+      font-size: 13px;
 
       &:hover {
         color: $black;
@@ -166,15 +168,7 @@ export default {
   }
 
   &__city {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 650px) {
-  .job-card {
-    &__item {
-      font-size: 12px;
-    }
+    font-size: 13px;
   }
 }
 </style>
