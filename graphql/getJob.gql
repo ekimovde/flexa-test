@@ -1,6 +1,0 @@
-mutation getJob($input: String!) {
-  job(input: $input) {
-    id
-    title
-  }
-}
